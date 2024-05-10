@@ -1,0 +1,164 @@
+
+body {
+    font-family: "Audiowide", sans-serif;
+    line-height: 1.6;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  nav {
+      background-image: url('bgh.jpg');
+    }
+
+    
+  }
+  h1 {
+    font-size: 500%;
+    color: #fffdfd;
+    text-shadow: #030101;
+    text-shadow: 2px 2px 4px rgb(255, 0, 0);
+
+  }
+
+  div {
+    color: #ffffff;
+    text-align: start;
+    text-shadow: 2px 2px 4px rgb(255, 0, 0);
+
+  }
+
+ /* Container */
+.container {
+  max-width: 1200px;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Heading */
+h2 {
+  font-size: 40px;
+  color: #ffffff;
+  text-align: start;
+  text-shadow: 2px 2px 4px rgb(255, 0, 0);
+}
+
+/* Paragraph */
+p {
+  font-size: 20px;
+  line-height: 1;
+  color: #ffffff;
+  text-align: justify;
+  text-shadow: 1px 1px 2px rgb(245, 0, 0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+
+
+  
+  div.gallery {
+    border: 8px solid #ffffff;
+    border-style: double;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #ff0000;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Navigation styles */
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  /* Home section styles */
+  #home {
+    height: 100vh;
+    
+    color: #0e0101;
+    text-shadow: #bb2828;
+    
+  }
+  
+  /* About section styles */
+  #about {
+    padding: 40px 0;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    padding: 40px 0;
+  }
+  
+  /* Social media section styles */
+  #social-media {
+    padding: 20px 0;
+  }
+  
+  /* Footer styles */
+  footer {
+    padding: 10px 0;
+  }
+  
